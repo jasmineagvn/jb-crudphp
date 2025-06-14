@@ -55,7 +55,7 @@ $_SESSION['data_ortu'] = $_POST;
             Nama Lengkap <span class="text-red-500">*</span>
         </label>
         <input type="text" name="kontak_nama" required placeholder="Ketik Nama"
-            class="w-full p-3 border rounded">
+            class="w-full p-3 border rounded-[12px]">
     </div>
 
     <div>
@@ -63,7 +63,7 @@ $_SESSION['data_ortu'] = $_POST;
             Hubungan dengan Siswa (Om/Tante, Sepupu, Kakak, dll) <span class="text-red-500">*</span>
         </label>
         <input type="text" name="kontak_hubungan" required placeholder="Ketik Jawaban"
-            class="w-full p-3 border rounded">
+            class="w-full p-3 border rounded-[12px]">
     </div>
 
     <div>
@@ -71,7 +71,7 @@ $_SESSION['data_ortu'] = $_POST;
             Alamat Lengkap (Sesuai KTP/KK) <span class="text-red-500">*</span>
         </label>
         <textarea name="kontak_alamat" required placeholder="Ketik Alamat"
-            class="w-full p-3 border rounded"></textarea>
+            class="w-full p-3 border rounded-[12px]"></textarea>
     </div>
 
     <div>
@@ -79,7 +79,7 @@ $_SESSION['data_ortu'] = $_POST;
             No.HP atau WhatsApp <span class="text-red-500">*</span>
         </label>
         <input type="text" name="kontak_nohp" required placeholder="Ketik No.HP atau WhatsApp"
-            class="w-full p-3 border rounded">
+            class="w-full p-3 border rounded-[12px]">
     </div>
 
     <div class="flex justify-between items-center mt-8">

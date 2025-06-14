@@ -13,7 +13,7 @@
       <div class="p-4 rounded-lg mb-12">
         <div class="bg-white p-4 rounded-lg">
           <img
-            src="assets/images/barcode.png"
+            src="../assets/images/QRIS.png"
             alt="QRIS Janji Baik"
             class="w-full lg:w-[399.73px] h-full lg:h-[526px] mx-auto"
           />
@@ -27,7 +27,7 @@
           href="index.php"
           class="absolute right-8 lg:right-24 flex items-center gap-2 lg:mt-0 mt-8 bg-orange-400 text-white px-6 py-2 rounded-full hover:bg-orange-500"
         >
-          <img src="assets/images/arrow-left.svg" alt="Kembali" class="h-5 w-5" />
+          <img src="../assets/images/arrowleft.png" alt="Kembali" class="h-5 w-5" />
           <p>Kembali</p>
         </a>
       </div>

@@ -56,23 +56,32 @@ $_SESSION['data_diri'] = $_POST;
         </label>
         <input type="text" name="ayah_nama" required placeholder="Ketik Nama" class="w-full border border-gray-500 rounded-[12px] mb-4 px-5 py-4" />
 
-        <label class="block mb-2 text-[#12121299] font-semibold">
+         <label class="block mb-2 text-[#12121299] font-semibold">
         Agama <span class="text-red-600">*</span>
         </label>
-        <input type="text" name="ayah_agama" required placeholder="Ketik Agama" class="w-full border border-gray-500 rounded-[12px] mb-4 px-5 py-4" />
+        <select name="ayah_agama" required class="w-[455px] border border-gray-500 rounded-[12px] mb-4 px-5 py-4 text-[#12121299]">
+        <option value="">Opsi Pilihan</option>
+          <option value="Islam">Islam</option>
+          <option value="Kristen Protestan">Kristen Protestan</option>
+          <option value="Katolik">Katolik</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Buddha">Buddha</option>
+          <option value="KongHucu">KongHucu</option>
+          <option value="Lainnya">Lainnya</option>
+        </select>
 
         <label class="block mb-2 text-[#12121299] font-semibold">
         Pendidikan Terakhir <span class="text-red-600">*</span>
         </label>
-        <select name="ayah_pendidikan" required class="w-full border border-gray-500 rounded-[12px] mb-4 px-5 py-4 text-[#12121299]">
-        <option value="" disabled selected>Opsi Pilihan</option>
-        <option value="Tidak sekolah">Tidak Sekolah</option>
-        <option value="SD">SD</option>
-        <option value="SMP">SMP</option>
-        <option value="SMA/SMK">SMA/SMK</option>
-        <option value="Diploma">Diploma</option>
-        <option value="Sarjana">Sarjana</option>
-        <option value="Pascasarjana">Pascasarjana</option>
+        <select name="ayah_pendidikan" required class="w-[455px] border border-gray-500 rounded-[12px] mb-4 px-5 py-4 text-[#12121299]">
+          <option value="" disabled selected>Opsi Pilihan</option>
+          <option value="Tidak sekolah">Tidak Sekolah</option>
+          <option value="SD">SD</option>
+          <option value="SMP">SMP</option>
+          <option value="SMA/SMK">SMA/SMK</option>
+          <option value="Diploma">Diploma</option>
+          <option value="Sarjana">Sarjana</option>
+          <option value="Pascasarjana">Pascasarjana</option>
         </select>
 
         <label class="block mb-2 text-[#12121299] font-semibold">
@@ -114,12 +123,21 @@ $_SESSION['data_diri'] = $_POST;
         <label class="block mb-2 text-[#12121299] font-semibold">
         Agama <span class="text-red-600">*</span>
         </label>
-        <input type="text" name="ibu_agama" required placeholder="Ketik Agama" class="w-full border border-gray-500 rounded-[12px] mb-4 px-5 py-4" />
+        <select name="ibu_agama" required class="w-[455px] border border-gray-500 rounded-[12px] mb-4 px-5 py-4 text-[#12121299]">
+        <option value="">Opsi Pilihan</option>
+          <option value="Islam">Islam</option>
+          <option value="Kristen Protestan">Kristen Protestan</option>
+          <option value="Katolik">Katolik</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Buddha">Buddha</option>
+          <option value="KongHucu">KongHucu</option>
+          <option value="Lainnya">Lainnya</option>
+        </select>
 
         <label class="block mb-2 text-[#12121299] font-semibold">
         Pendidikan Terakhir <span class="text-red-600">*</span>
         </label>
-        <select name="ibu_pendidikan" required class="w-full border border-gray-500 rounded-[12px] mb-4 px-5 py-4 text-[#12121299]">
+        <select name="ibu_pendidikan" required class="w-[455px] border border-gray-500 rounded-[12px] mb-4 px-5 py-4 text-[#12121299]">
         <option value="" disabled selected>Opsi Pilihan</option>
         <option value="Tidak sekolah">Tidak Sekolah</option>
         <option value="SD">SD</option>
@@ -169,12 +187,21 @@ $_SESSION['data_diri'] = $_POST;
         <label class="block mb-2 text-[#12121299] font-semibold">
         Agama <span class="text-red-600">*</span>
         </label>
-        <input type="text" name="wali_agama" required placeholder="Ketik Agama" class="w-full border border-gray-500 rounded-[12px] mb-4 px-5 py-4" />
+        <select name="wali_agama" required class="w-[455px] border border-gray-500 rounded-[12px] mb-4 px-5 py-4 text-[#12121299]">
+        <option value="">Opsi Pilihan</option>
+          <option value="Islam">Islam</option>
+          <option value="Kristen Protestan">Kristen Protestan</option>
+          <option value="Katolik">Katolik</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Buddha">Buddha</option>
+          <option value="KongHucu">KongHucu</option>
+          <option value="Lainnya">Lainnya</option>
+        </select>
 
         <label class="block mb-2 text-[#12121299] font-semibold">
         Pendidikan Terakhir <span class="text-red-600">*</span>
         </label>
-        <select name="wali_pendidikan" required class="w-full border border-gray-500 rounded-[12px] mb-4 px-5 py-4 text-[#12121299]">
+        <select name="wali_pendidikan" required class="w-[455px] border border-gray-500 rounded-[12px] mb-4 px-5 py-4 text-[#12121299]">
         <option value="" disabled selected>Opsi Pilihan</option>
         <option value="Tidak sekolah">Tidak Sekolah</option>
         <option value="SD">SD</option>

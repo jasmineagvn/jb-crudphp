@@ -82,13 +82,13 @@ session_start();
   <label class="block mb-2 mt-6 text-[#12121299] font-semibold">
     NIK (Apabila Belum mempunyai KTP bisa dilihat di Kartu Keluarga) <span class="text-red-500">*</span>
   </label>
-  <input type="text" name="nik" required class="w-full border border-gray-500 p-2 rounded-[12px] mb-4 px-5 py-4">
+  <input type="text" name="nik" placeholder="Ketik NIK" required class="w-full border border-gray-500 p-2 rounded-[12px] mb-4 px-5 py-4">
 
   <label class="block mb-2 mt-6 text-[#12121299] font-semibold">Tingkatan yang Dituju *</label>
   <div class="mb-4 flex flex-col gap-6 text-[#12121299]">
     <?php foreach (["Paket A (Setara SD)", "Paket B (Setara SMP)", "Paket C (Setara SMA)"] as $item): ?>
       <label class="block">
-        <input type="radio" name="tingkat" value="<?= $item ?>" required class="mr-2"> <?= $item ?>
+        <input type="radio" name="tingkatan_dituju" value="<?= $item ?>" required class="mr-2"> <?= $item ?>
       </label>
     <?php endforeach; ?>
   </div>
@@ -106,7 +106,7 @@ session_start();
   <label class="block mb-2 mt-6 text-[#12121299] font-semibold">
     Kelas/Tingkatan Terakhir (sesuai rapor terakhir yang dimiliki) <span class="text-red-500">*</span>
   </label>
-  <input type="text" name="kelas_terakhir" required class="w-full border border-gray-500 p-2 rounded-[12px] mb-4 px-5 py-4">
+  <input type="text" name="kelas_terakhir" placeholder="Contoh: Kelas 6 Semester 2" required class="w-full border border-gray-500 p-2 rounded-[12px] mb-4 px-5 py-4">
 
   <div class="mb-4">
     <label class="block mb-2 mt-6 text-[#12121299] font-semibold">
